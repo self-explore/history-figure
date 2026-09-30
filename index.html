@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自我探索-历史人物测试</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==================== 封面 ==================== -->
+  <div id="cover-page" class="screen active">
+    <div class="cover">
+      <div class="brand-bar"><span class="brand">自我探索-历史人物测试</span></div>
+      <div class="cover-inner">
+        <h1 class="cover-h1">历史人物测试</h1>
+        <p class="cover-sub">穿越千年，你的灵魂最像谁？</p>
+        <p class="cover-desc">通过 40 道性格题，从 12 位历史人物中匹配出与你最相像的那一位，解读你的性格底色与人生轨迹。</p>
+        <button class="btn-main" onclick="enterQuiz()">开始测试</button>
+        <div class="cover-tags"><span>无需登录</span><span>即时结果</span><span>40 题 · 约 5 分钟</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 答题 ==================== -->
+  <div id="quiz-page" class="screen">
+    <div class="quiz-top">
+      <div class="quiz-top-row">
+        <span id="q-num">Question 1</span>
+        <span id="q-total">40 total</span>
+      </div>
+      <div class="q-bar-wrap"><div class="q-bar" id="q-bar"></div></div>
+    </div>
+    <div class="quiz-body">
+      <h3 class="q-text" id="q-text"></h3>
+      <div class="q-opts" id="q-opts"></div>
+    </div>
+  </div>
+
+  <!-- ==================== 加载 ==================== -->
+  <div id="load-page" class="screen">
+    <div class="load-wrap">
+      <h2 class="load-h2">正在穿越时空寻找你的灵魂原型</h2>
+      <p class="load-sub">系统正在扫描千年人物谱系，比对你的性格光谱，寻找与你最相像的那一位。</p>
+      <div class="load-bar-wrap"><div class="load-bar" id="load-bar"></div></div>
+      <div class="load-pct" id="load-pct">0%</div>
+      <div class="load-steps" id="load-steps"></div>
+    </div>
+  </div>
+
+  <!-- ==================== 结果 ==================== -->
+  <div id="result-page" class="screen">
+    <div class="result-scroll" id="result-scroll"></div>
+  </div>
+
+  <script src="quiz-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
