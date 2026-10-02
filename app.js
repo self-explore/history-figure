@@ -191,7 +191,10 @@ function showResult() {
         <div class="fig-name">${f.name}</div>
         <div class="fig-full">${f.full}</div>
         <div class="fig-years">${f.years}</div>
-        <div class="fig-kw">${f.keyword}</div>
+        <div class="fig-kw-block">
+          <div class="fig-kw-label">你的人生主题词</div>
+          <div class="fig-kw">${f.keyword}</div>
+        </div>
       </div>
       <div class="fig-bottom">
         <p class="fig-eval">${f.eval}</p>
