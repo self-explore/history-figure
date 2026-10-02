@@ -115,9 +115,13 @@ button { font-family: inherit; cursor: pointer; }
 .fig-name { font-family: 'Noto Serif SC', serif; font-size: 40px; font-weight: 700; letter-spacing: 6px; }
 .fig-full { font-size: 14px; opacity: 0.85; margin-top: 6px; letter-spacing: 1px; }
 .fig-years { font-size: 12px; opacity: 0.7; margin-top: 4px; }
+.fig-kw-block { margin-top: 20px; }
+.fig-kw-label { font-size: 12px; letter-spacing: 3px; opacity: 0.8; margin-bottom: 10px; }
 .fig-kw {
-  display: inline-block; margin-top: 14px; font-size: 13px; letter-spacing: 2px;
-  background: rgba(255,255,255,0.18); padding: 6px 18px; border-radius: 999px;
+  display: inline-block; font-family: 'Noto Serif SC', serif;
+  font-size: 23px; font-weight: 700; letter-spacing: 5px;
+  background: rgba(255,255,255,0.18); padding: 12px 30px; border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.35); text-shadow: 0 1px 6px rgba(0,0,0,0.15);
 }
 .fig-bottom { background: #fffdf8; padding: 20px 24px; }
 .fig-eval { font-size: 14px; line-height: 2; color: #4a4438; }
