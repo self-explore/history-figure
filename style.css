@@ -200,3 +200,7 @@ button { font-family: inherit; cursor: pointer; }
 .dim-pct { font-size: 13px; font-weight: 700; color: #8a7448; }
 .dim-text { font-size: 13.5px; line-height: 1.75; color: #5a5245; margin: 0; }
 .career-text { font-size: 13.5px; line-height: 1.8; color: #5a5245; margin: 12px 0 0; padding-top: 12px; border-top: 1px dashed #e2d8c2; }
+.sec3-label { font-size: 13px; font-weight: 700; color: #8a7448; letter-spacing: 1px; padding-left: 9px; border-left: 3px solid #c0a878; }
+.sec3-label.warn { color: #9a5a3a; border-left-color: #c08a6a; }
+.kv-line { font-size: 14px; font-weight: 600; color: #6a6252; }
+.kl { margin-right: 8px; }
